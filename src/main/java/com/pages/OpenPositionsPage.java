@@ -93,7 +93,7 @@ public class OpenPositionsPage extends AbstractPageObject {
             Assert.assertTrue(jobLocation.getText().equals("Istanbul, Turkey"), "Location does not contain 'Istanbul, Turkey'");
             Assert.assertTrue(applyButton.isEnabled(), "'Apply Now' button isn't present");
         }
-    //Honestly, I'm not sure that this works
+    //Honestly, I'm not sure that this works properly. However, I'm sure that I'd to use List of Webelemets and array to check needed Webelements in this List.
 
     }
 
